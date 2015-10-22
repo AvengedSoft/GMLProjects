@@ -81,8 +81,13 @@
     <option_frequency>0</option_frequency>
     <option_frontimage>nil</option_frontimage>
     <option_fullscreen>false</option_fullscreen>
+<<<<<<< HEAD
     <option_gameguid>{CD82D320-59E8-4DCC-BB91-C6F0457A7771}</option_gameguid>
     <option_gameid>331916727</option_gameid>
+=======
+    <option_gameguid>{E1D593BE-5A32-4D02-9D06-B51D54AC4A43}</option_gameguid>
+    <option_gameid>777130137</option_gameid>
+>>>>>>> refs/remotes/origin/Test-Branch
     <option_haptic_effects>false</option_haptic_effects>
     <option_hasloadimage>false</option_hasloadimage>
     <option_helpkey>true</option_helpkey>
@@ -267,8 +272,13 @@
     <option_savekey>true</option_savekey>
     <option_scale>-1</option_scale>
     <option_scaleprogress>true</option_scaleprogress>
+<<<<<<< HEAD
     <option_sci_UseSCI>-1</option_sci_UseSCI>
     <option_sci_serverLocation>git@github.com:AvengedSoft/GMLProjects.git/</option_sci_serverLocation>
+=======
+    <option_sci_UseSCI>0</option_sci_UseSCI>
+    <option_sci_serverLocation></option_sci_serverLocation>
+>>>>>>> refs/remotes/origin/Test-Branch
     <option_screenkey>true</option_screenkey>
     <option_screenshotkey>true</option_screenshotkey>
     <option_shortcircuit>true</option_shortcircuit>
