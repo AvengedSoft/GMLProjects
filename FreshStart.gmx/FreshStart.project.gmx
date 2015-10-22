@@ -11,6 +11,7 @@
     </sprites>
     <sprites name="Prototype Sprites">
       <sprite>sprites\placeholder</sprite>
+      <sprite>sprites\sprCoin</sprite>
     </sprites>
     <sprites name="Final Sprites">
       <sprite>sprites\placeholder2</sprite>
