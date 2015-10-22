@@ -9,6 +9,12 @@
     <sprites name="Test Sprites">
       <sprite>sprites\sprTest</sprite>
     </sprites>
+    <sprites name="Prototype Sprites">
+      <sprite>sprites\placeholder</sprite>
+    </sprites>
+    <sprites name="Final Sprites">
+      <sprite>sprites\placeholder2</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
