@@ -21,10 +21,14 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\object0</object>
+    <object>objects\objCoin</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline0</timeline>
   </timelines>
+  <rooms name="rooms">
+    <room>rooms\TestRoom</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
