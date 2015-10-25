@@ -17,15 +17,17 @@
       <sprite>sprites\placeholder2</sprite>
     </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bgTestTiles</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\objCoin</object>
+    <object>objects\objTestPlayerEntity</object>
   </objects>
-  <timelines name="timelines">
-    <timeline>timelines\timeline0</timeline>
-  </timelines>
-  <rooms name="rooms"/>
+  <timelines name="timelines"/>
+  <rooms name="rooms">
+    <room>rooms\rmTestRoom</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
