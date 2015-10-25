@@ -24,7 +24,6 @@
   <objects name="objects">
     <object>objects\objTestPlayerEntity</object>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\rmTestRoom</room>
   </rooms>
