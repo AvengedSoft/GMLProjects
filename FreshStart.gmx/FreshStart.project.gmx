@@ -27,6 +27,9 @@
     <background>background\bgTestTiles</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\hpCheckandDestroy.gml</script>
+  </scripts>
   <objects name="objects">
     <objects name="Test">
       <object>objects\objEnemyBulletTest</object>
