@@ -98,7 +98,7 @@ if(mouse_check_button(mb_left) and fireReady = true)
 {
 instance_create(x, y, objTestBullet);
 fireReady = false;
-alarm[0] = 40
+alarm[0] = 10
 }
 </string>
           </argument>
