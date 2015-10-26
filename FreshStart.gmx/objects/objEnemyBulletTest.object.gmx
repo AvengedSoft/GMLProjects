@@ -3,7 +3,7 @@
   <spriteName>sprTestBullet</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-1</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>hitOnce = true;
+
 //Changes image rotation to match mouse point direction
 if(instance_exists(objTestPlayerEntity))
 {
@@ -59,19 +60,48 @@ if(instance_exists(objTestPlayerEntity))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(position_meeting(x, y, objTestPlayerEntity))
+            <string>/*
+if(position_meeting(x, y, objTestPlayerEntity))
 {
     with (objTestPlayerEntity)
     {
-        instance_destroy();
+        other.health -= 10;
     } //End With
 } //End If
+*/
 
 //Destroys object if object moves off screen
     if((x &gt; room_width or x &lt; 0) or (y &gt; room_height or y &lt; 0))
     {
-        instance_destroy();
+        instance_destroy()
     }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="objTestPlayerEntity">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(hitOnce = true)
+{
+    other.health -= 10;
+    hitOnce = false;
+}
 </string>
           </argument>
         </arguments>
