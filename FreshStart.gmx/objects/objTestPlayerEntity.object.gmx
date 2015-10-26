@@ -76,29 +76,29 @@ fireReady = true;
             <kind>1</kind>
             <string>if(keyboard_check(ord("A")))
 {
-x -= 4
+x -= 2
 }
 
 if(keyboard_check(ord("D")))
 {
-x += 4
+x += 2
 }
 
 if(keyboard_check(ord("W")))
 {
-y -= 4
+y -= 2
 }
 
 if(keyboard_check(ord("S")))
 {
-y += 4
+y += 2
 }
 
 if(mouse_check_button(mb_left) and fireReady = true)
 {
 instance_create(x, y, objTestBullet);
 fireReady = false;
-alarm[0] = 20
+alarm[0] = 40
 }
 </string>
           </argument>
