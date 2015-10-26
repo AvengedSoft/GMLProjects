@@ -12,6 +12,7 @@
       <sprite>sprites\sprTest</sprite>
       <sprite>sprites\sprTestBullet</sprite>
       <sprite>sprites\sprTestA</sprite>
+      <sprite>sprites\sprEnemyTest</sprite>
     </sprites>
     <sprites name="Prototype Sprites">
       <sprite>sprites\placeholder</sprite>
@@ -29,6 +30,8 @@
     <object>objects\objTestPlayerEntity</object>
     <object>objects\objTestBullet</object>
     <object>objects\objCoin</object>
+    <object>objects\objEnemyTest</object>
+    <object>objects\objEnemyBulletTest</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmTestRoom</room>
