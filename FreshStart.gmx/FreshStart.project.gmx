@@ -13,6 +13,7 @@
       <sprite>sprites\sprTestBullet</sprite>
       <sprite>sprites\sprTestA</sprite>
       <sprite>sprites\sprEnemyTest</sprite>
+      <sprite>sprites\spr_EnemyTest2</sprite>
     </sprites>
     <sprites name="Prototype Sprites">
       <sprite>sprites\placeholder</sprite>
