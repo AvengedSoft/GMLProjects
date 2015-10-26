@@ -25,12 +25,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var stillAlive = true;
+            <string>
+move_towards_point(mouse_x, mouse_y, 5);
 
-while(stillAlive) 
-{
-move_towards_point(mouse.x, mouse.y, 10)
-}
+    if((x &gt; room_width or x &lt; 0) or (y &gt; room_height or y &lt; 0))
+    {
+        instance_destroy();
+    }
+
 </string>
           </argument>
         </arguments>
