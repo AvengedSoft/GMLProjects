@@ -3,7 +3,7 @@
   <spriteName>sprTestBullet</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-1</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -87,7 +87,8 @@ alarm[0] = 15;
             <kind>1</kind>
             <string>if(showline)
 {
-lineL = draw_line_width_colour(objTestPlayerEntity.x, objTestPlayerEntity.y, x, y, 1, c_aqua, c_blue);
+draw_line_width_colour(objTestPlayerEntity.x, objTestPlayerEntity.y, x, y, 1, c_aqua, c_blue);
+
 }
 </string>
           </argument>
