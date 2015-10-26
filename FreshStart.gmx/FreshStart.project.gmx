@@ -35,6 +35,9 @@
       <object>objects\objCoin</object>
       <object>objects\objTestBullet</object>
     </objects>
+    <objects name="Controller">
+      <object>objects\ctrlTestController</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmTestRoom</room>

@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>hp = 100;
 readyFire = true;
+image_speed = 0.05;
 </string>
           </argument>
         </arguments>
