@@ -27,11 +27,13 @@
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\objTestPlayerEntity</object>
-    <object>objects\objTestBullet</object>
-    <object>objects\objCoin</object>
-    <object>objects\objEnemyTest</object>
-    <object>objects\objEnemyBulletTest</object>
+    <objects name="Test">
+      <object>objects\objEnemyBulletTest</object>
+      <object>objects\objEnemyTest</object>
+      <object>objects\objTestPlayerEntity</object>
+      <object>objects\objCoin</object>
+      <object>objects\objTestBullet</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmTestRoom</room>

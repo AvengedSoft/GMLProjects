@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>readyFire = true;
+            <string>hp = 100;
+readyFire = true;
 </string>
           </argument>
         </arguments>
@@ -71,12 +72,17 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(instance_exists(objTestPlayerEntity))
+            <string>if(hp &lt; 0)
 {
-move_towards_point(objTestPlayerEntity.x, objTestPlayerEntity.y, 1.5);
+    instance_destroy()
 }
+
+if(instance_exists(objTestPlayerEntity))
+    {
+    move_towards_point(objTestPlayerEntity.x, objTestPlayerEntity.y, 1.5);
+    }
 else
-move_towards_point(x, y, 0);
+    move_towards_point(x, y, 0);
 
 if(position_meeting(x, y, objTestPlayerEntity))
 {
@@ -92,6 +98,7 @@ instance_create(x, y, objEnemyBulletTest);
 readyFire = false;
 alarm[0] = 30;
 }
+
 
 </string>
           </argument>

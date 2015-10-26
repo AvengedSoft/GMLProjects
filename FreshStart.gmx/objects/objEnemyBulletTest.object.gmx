@@ -99,7 +99,7 @@ if(position_meeting(x, y, objTestPlayerEntity))
             <kind>1</kind>
             <string>if(hitOnce = true)
 {
-    other.health -= 10;
+    other.hp -= 10;
     hitOnce = false;
 }
 </string>

@@ -26,6 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>sound_play(sndTestBulletFire)
+hitOnce = true;
+
 //Changes image rotation to match mouse point direction
 image_angle = point_direction(x, y, mouse_x, mouse_y);
 //Sets object in motion to specified point
@@ -68,7 +70,7 @@ alarm[0] = 15;
         </arguments>
       </action>
     </event>
-    <event eventtype="8" enumb="0">
+    <event eventtype="4" ename="objEnemyTest">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -85,10 +87,10 @@ alarm[0] = 15;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(showline and instance_exists(objTestPlayerEntity))
+            <string>if(hitOnce)
 {
-draw_line_width_colour(objTestPlayerEntity.x, objTestPlayerEntity.y, x, y, 1, c_aqua, c_blue);
-
+other.hp -= 10;
+instance_destroy();
 }
 </string>
           </argument>
