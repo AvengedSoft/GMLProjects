@@ -4,7 +4,9 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sndTestBulletFire</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="Test Sprites">
       <sprite>sprites\sprTest</sprite>
