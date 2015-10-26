@@ -45,7 +45,7 @@ if(keyboard_check(ord("S")))
 y += 4
 }
 
-if(keyboard_check(vk_space))
+if(mouse_check_button(mb_left))
 {
 instance_create(x, y, objTestBullet)
 }

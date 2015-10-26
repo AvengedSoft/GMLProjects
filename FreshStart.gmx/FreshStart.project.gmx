@@ -26,6 +26,7 @@
   <objects name="objects">
     <object>objects\objTestPlayerEntity</object>
     <object>objects\objTestBullet</object>
+    <object>objects\objCoin</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmTestRoom</room>

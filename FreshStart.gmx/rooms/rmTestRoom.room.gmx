@@ -52,6 +52,11 @@
   </views>
   <instances>
     <instance objName="objTestPlayerEntity" x="288" y="256" name="inst_DF515638" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCoin" x="416" y="192" name="inst_87EECBEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCoin" x="352" y="384" name="inst_4F10084B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCoin" x="200" y="369" name="inst_3C075335" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCoin" x="512" y="416" name="inst_404DC032" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCoin" x="600" y="263" name="inst_0D987E39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgTestTiles" x="160" y="160" w="64" h="64" xo="0" yo="0" id="10000020" name="inst_8EBCA37E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
