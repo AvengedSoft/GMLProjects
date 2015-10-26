@@ -29,8 +29,7 @@
 
 while(stillAlive) 
 {
-
-
+move_towards_point(mouse.x, mouse.y, 10)
 }
 </string>
           </argument>
