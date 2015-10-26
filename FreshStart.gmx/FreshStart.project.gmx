@@ -8,6 +8,8 @@
   <sprites name="sprites">
     <sprites name="Test Sprites">
       <sprite>sprites\sprTest</sprite>
+      <sprite>sprites\sprTestBullet</sprite>
+      <sprite>sprites\sprTestA</sprite>
     </sprites>
     <sprites name="Prototype Sprites">
       <sprite>sprites\placeholder</sprite>
@@ -23,6 +25,7 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\objTestPlayerEntity</object>
+    <object>objects\objTestBullet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmTestRoom</room>
