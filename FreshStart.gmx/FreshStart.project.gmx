@@ -37,6 +37,7 @@
     </objects>
     <objects name="Controller">
       <object>objects\ctrlTestController</object>
+      <object>objects\ctrlPointCounter</object>
     </objects>
   </objects>
   <rooms name="rooms">
