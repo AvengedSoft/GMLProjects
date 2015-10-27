@@ -30,6 +30,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bgTestTiles</background>
+    <background>background\bg_Test2</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
