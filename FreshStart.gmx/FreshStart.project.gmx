@@ -45,6 +45,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rmTestRoom</room>
+    <room>rooms\rmTestTransition</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
