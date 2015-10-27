@@ -14,6 +14,7 @@
       <sprite>sprites\sprTestA</sprite>
       <sprite>sprites\sprEnemyTest</sprite>
       <sprite>sprites\spr_EnemyTest2</sprite>
+      <sprite>sprites\spr_ElectricTank</sprite>
     </sprites>
     <sprites name="Prototype Sprites">
       <sprite>sprites\placeholder</sprite>
@@ -21,6 +22,10 @@
     </sprites>
     <sprites name="Final Sprites">
       <sprite>sprites\placeholder2</sprite>
+    </sprites>
+    <sprites name="Hidden Sprites">
+      <sprite>sprites\spr_Transition</sprite>
+      <sprite>sprites\spr_EventZone</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -34,18 +39,22 @@
     <objects name="Test">
       <object>objects\objEnemyBulletTest</object>
       <object>objects\objEnemyTest</object>
-      <object>objects\objTestPlayerEntity</object>
-      <object>objects\objCoin</object>
+      <object>objects\obj_Player</object>
       <object>objects\objTestBullet</object>
+      <object>objects\obj_Prop</object>
     </objects>
     <objects name="Controller">
-      <object>objects\ctrlTestController</object>
-      <object>objects\ctrlPointCounter</object>
+      <object>objects\ctrl_TestSpawner</object>
+      <object>objects\ctrl_PointController</object>
+    </objects>
+    <objects name="Trigger">
+      <object>objects\obj_RoomChange</object>
+      <object>objects\obj_EventZone</object>
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rmTestRoom</room>
-    <room>rooms\rmTestTransition</room>
+    <room>rooms\rm_TestRoom</room>
+    <room>rooms\rm_TestTransition</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

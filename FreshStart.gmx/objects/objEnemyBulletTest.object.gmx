@@ -28,12 +28,12 @@
             <string>hitOnce = true;
 
 //Changes image rotation to match mouse point direction
-if(instance_exists(objTestPlayerEntity))
+if(instance_exists(obj_Player))
 {
     sound_play(sndTestBulletFire)
-    image_angle = point_direction(x, y, objTestPlayerEntity.x, objTestPlayerEntity.y);
+    image_angle = point_direction(x, y, obj_Player.x, obj_Player.y);
     //Sets object in motion to specified point
-    move_towards_point(objTestPlayerEntity.x, objTestPlayerEntity.y, 5);
+    move_towards_point(obj_Player.x, obj_Player.y, 5);
 }
 
 
@@ -80,7 +80,7 @@ if(position_meeting(x, y, objTestPlayerEntity))
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="objTestPlayerEntity">
+    <event eventtype="4" ename="obj_Player">
       <action>
         <libid>1</libid>
         <id>603</id>
