@@ -53,7 +53,7 @@
   <instances>
     <instance objName="obj_Prop" x="216" y="153" name="inst_6499D3E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPropPowerBox" x="208" y="298" name="inst_6D5C4247" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objFakelight" x="210" y="297" name="inst_80002E96" locked="0" code="" scaleX="1" scaleY="1" colour="1694498815" rotation="0"/>
+    <instance objName="objFakelight" x="207" y="302" name="inst_80002E96" locked="0" code="" scaleX="0.356589138507843" scaleY="0.4140625" colour="4282402303" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="" x="192" y="288" w="16" h="16" xo="0" yo="0" id="10000719" name="inst_DE931BE2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
